@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import vigi.patient.R;
+import vigi.patient.view.authentication.home.HomeAuthActivity;
 import vigi.patient.view.patient.careProvider.ProfileActivity;
 import vigi.patient.view.patient.home.HomePatientActivity;
 
@@ -32,7 +33,7 @@ public class  WelcomeScreenActivity extends AppCompatActivity {
     private void launchHomeAuthActivity() {
         ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(WelcomeScreenActivity.this,
                 welcomeText,"welcomeToVigi");
-        jumpToActivity(this, HomePatientActivity.class, false, options.toBundle());
+        jumpToActivity(this, HomeAuthActivity.class, false, options.toBundle());
     }
 
 }

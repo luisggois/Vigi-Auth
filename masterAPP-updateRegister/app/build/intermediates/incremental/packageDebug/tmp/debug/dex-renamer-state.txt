@@ -1,4 +1,0 @@
-#Sun Jan 20 17:21:27 GMT 2019
-base.0=C\:\\Users\\DANIEL\\Documents\\GitHub\\HORUSAI\\masterAPP-updateRegister\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
